@@ -1,9 +1,9 @@
 FROM stefanorg/centos-php56
 
 # -----------------------------------------------------------------------------
-# php mysql which git
+# php mysql which git intl
 # -----------------------------------------------------------------------------
-RUN yum -y install php56w-mysql which git
+RUN yum -y install php56w-mysql php56w-intl which git
 
 # -----------------------------------------------------------------------------
 # Composer
